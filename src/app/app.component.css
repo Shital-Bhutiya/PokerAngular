@@ -1,0 +1,38 @@
+body{
+    background-color: green;
+}
+
+select{
+height:30px;
+border-radius: 5px;
+margin:5px;
+}
+
+.Poker{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background: #1a7d1a;
+    border-radius: 40px;
+}
+
+span{
+    font-size:20px;
+}
+
+button{
+    margin:20px;
+    text-align: center;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color:black;
+    color:white;
+}
+
+@media only screen and (max-width: 600px) {
+    .Poker{
+        justify-content:center;
+        flex-direction: column;
+    }
+  }
